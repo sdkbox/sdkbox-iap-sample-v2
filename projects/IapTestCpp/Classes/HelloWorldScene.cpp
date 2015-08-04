@@ -145,7 +145,7 @@ void HelloWorld::onRestored(const Product& p)
 
 void HelloWorld::updateIAP(const std::vector<sdkbox::Product>& products)
 {
-    //
+    //TODO: schedule this to run in cocos2d-x thread to avoid it show up as black labels
     _iapMenu->removeAllChildren();
     _products = products;
     
