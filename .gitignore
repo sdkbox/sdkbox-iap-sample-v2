@@ -5,8 +5,8 @@
 bin/
 obj/
 gen/
-libs/
 assets/
+projects/IapTestCpp/proj.android/libs/
 local.properties
 
 # Xcode
