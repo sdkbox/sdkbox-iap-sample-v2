@@ -26,19 +26,21 @@ public:
 private:
     void updateIAP(const std::vector<sdkbox::Product>& products);
     
-    virtual void onInitialized(bool success);
+    void onInitialized(bool success);
     
-    virtual void onSuccess(sdkbox::Product const& p);
+    void onSuccess(sdkbox::Product const& p);
     
-    virtual void onFailure(sdkbox::Product const& p, const std::string &msg);
+    void onFailure(sdkbox::Product const& p, const std::string &msg);
     
-    virtual void onCanceled(sdkbox::Product const& p);
+    void onCanceled(sdkbox::Product const& p);
     
-    virtual void onRestored(sdkbox::Product const& p);
+    void onRestored(sdkbox::Product const& p);
     
-    virtual void onProductRequestSuccess(std::vector<sdkbox::Product> const &products);
+    void onProductRequestSuccess(std::vector<sdkbox::Product> const &products);
     
-    virtual void onProductRequestFailure(const std::string &msg);
+    void onProductRequestFailure(const std::string &msg);
+    
+    void onRestoreComplete(bool ok, const std::string &msg);
     
     cocos2d::CCMenu* _iapMenu;
     std::vector<sdkbox::Product> _products;

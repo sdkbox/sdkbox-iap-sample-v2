@@ -174,3 +174,19 @@ void HelloWorld::onProductRequestFailure(const std::string &msg)
 {
     CCLOG("Fail to load products");
 }
+
+void HelloWorld::onRestoreComplete(bool ok, const std::string &msg)
+{
+    CCLOG("Restore complete");
+    
+    if (ok)
+    {
+        CCLOG("Restore Successful: %s", msg.c_str());
+    }
+    else
+    {
+        CCLOG("Restore failed: %s", msg.c_str());
+    }
+}
+
+
