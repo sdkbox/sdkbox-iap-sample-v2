@@ -41,6 +41,9 @@ namespace sdkbox
 
         // Localized price
         std::string price;
+        
+        // price currency code
+        std::string currencyCode;
     };
 
     /**
