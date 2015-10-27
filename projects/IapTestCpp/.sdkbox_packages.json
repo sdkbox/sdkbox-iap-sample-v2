@@ -3,8 +3,9 @@
         "engine": "2", 
         "constants": {
             "ANDROID_STUDIO_JNI_DIR": "n/a", 
-            "COCOS_BACKUP_DIR": "backup-2015-09-30/", 
+            "COCOS_BACKUP_DIR": "backup-2015-10-27/", 
             "COCOS_PROJECT_DIR": "./", 
+            "COCOS_2DX_INSTALLATION_VERSION": "2.2.6", 
             "ANDROID_COCOS_PACKAGE_ROOT": "/Users/niteluo/Projects/test/cocos/sdkbox-iap-sample-v2/cocos2dx/platform/android/java/", 
             "google_play_services": "/usr/local/opt/android-sdk/extras/google/google_play_services/libproject/google-play-services_lib", 
             "SDKBOX_PLUGIN_NAME": "IAP", 
@@ -31,16 +32,16 @@
             "COCOS_2DX_VERSION": "2.2.6", 
             "ANDROID_PROPERTIES": "proj.android/project.properties", 
             "ANDROID_ACTIVITY_PATH": "proj.android/src/org/cocos2dx/PluginTest/", 
-            "COCOS_RESOURCES_DIR": "Resources/", 
+            "ANDROID_MK": "proj.android/jni/Android.mk", 
             "ANDROID_STUDIO_LIBS_DIR": "n/a", 
             "ANDROID_LIBS_DIR": "/Users/niteluo/Projects/test/cocos/sdkbox-iap-sample-v2/cocos2dx/platform/android/java/libs/", 
-            "ANDROID_MK": "proj.android/jni/Android.mk"
+            "COCOS_RESOURCES_DIR": "Resources/"
         }, 
         "version": [
             1, 
-            3, 
-            1, 
-            0
+            4, 
+            0, 
+            4
         ], 
         "name": "iap", 
         "args": {
@@ -51,13 +52,15 @@
             "verbose": 0, 
             "noupdate": 0, 
             "command": "update", 
+            "forcecopy": 1, 
             "days": 10, 
             "manifest": "manifest.json", 
             "forcedownload": 0, 
             "china": 0, 
-            "installer": "sdkbox.pyc", 
+            "installer": "/Applications/Cocos/frameworks/cocos2d-x-3.8/tools/cocos2d-console/bin/sdkbox.pyc", 
             "server": "staging.sdkbox.com/installer/v1/", 
-            "nopatching": 1
+            "nopatching": 1, 
+            "jsonapi": 0
         }
     }
 }
