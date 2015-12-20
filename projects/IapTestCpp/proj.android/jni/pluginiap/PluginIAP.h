@@ -55,7 +55,7 @@ namespace sdkbox
         /**
         * Called when IAP initialized
         */
-        virtual void onInitialized(bool ok) = 0;
+        virtual void onInitialized(bool success) = 0;
 
         /**
         * Called when an IAP processed successfully
