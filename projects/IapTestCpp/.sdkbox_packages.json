@@ -3,7 +3,7 @@
         "engine": "2", 
         "constants": {
             "ANDROID_STUDIO_JNI_DIR": "n/a", 
-            "COCOS_BACKUP_DIR": "backup-2015-12-04/", 
+            "COCOS_BACKUP_DIR": "backup-2015-12-20/", 
             "COCOS_PROJECT_DIR": "./", 
             "COCOS_2DX_INSTALLATION_VERSION": "2.2.6", 
             "ANDROID_COCOS_PACKAGE_ROOT": "/Users/gbox/Documents/chukong_test/sdkbox-iap-sample-v2/cocos2dx/platform/android/java/", 
@@ -42,25 +42,26 @@
         "version": [
             1, 
             5, 
-            0, 
-            3
+            1, 
+            4
         ], 
         "name": "iap", 
         "args": {
             "patcherrors": 0, 
-            "project": "./", 
-            "nohelp": 0, 
-            "nopatchingcpp": 0, 
-            "verbose": 0, 
-            "noupdate": 0, 
-            "command": "update", 
-            "forcecopy": 1, 
-            "days": 10, 
-            "server": "download.sdkbox.com/installer/v1/", 
             "forcedownload": 0, 
-            "china": 0, 
-            "installer": "/Users/gbox/Documents/chukong_test/sdkbox-core/tools/installer/sdkbox/bin/sdkbox.pyc", 
+            "noupdate": 0, 
+            "days": 10, 
+            "verbose": 0, 
+            "forcecopy": 1, 
+            "command": "update", 
+            "nohelp": 0, 
+            "server": "download.sdkbox.com/installer/v1/", 
             "manifest": "manifest.json", 
+            "project": "./", 
+            "china": 0, 
+            "alwaysupdate": 0, 
+            "installer": "/Users/gbox/Documents/chukong_test/sdkbox/bin/sdkbox.pyc", 
+            "nopatchingcpp": 0, 
             "nopatching": 1, 
             "jsonapi": 0
         }
