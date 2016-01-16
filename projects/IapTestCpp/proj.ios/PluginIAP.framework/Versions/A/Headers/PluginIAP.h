@@ -44,6 +44,12 @@ namespace sdkbox
         
         // price currency code
         std::string currencyCode;
+
+        // cyphered payload
+        std::string receiptCipheredPayload;
+
+        // receipt info. will be empty string for iOS
+        std::string receipt;
     };
 
     /**
@@ -92,6 +98,7 @@ namespace sdkbox
          * Called when the restore completed
          */
         virtual void onRestoreComplete(bool ok, const std::string &msg) = 0;
+
     };
 
     class IAP
@@ -134,6 +141,10 @@ namespace sdkbox
         * Remove listener for IAP
         */
         static void removeListener();
+
+
+        static void enableUserSideVerification( bool );
+
     };
 }
 
